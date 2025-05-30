@@ -90,3 +90,6 @@ steps:
         echo "*******************************************************************************"
       fi
 # [END tf-apply]      
+serviceAccount: 'projects/cs-host-5806e9d2ba9f40968cdc3f/serviceAccounts/gcp-cloud-setup@cs-host-5806e9d2ba9f40968cdc3f.iam.gserviceaccount.com'
+options:
+  logging: CLOUD_LOGGING_ONLY
